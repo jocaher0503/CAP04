@@ -20,7 +20,8 @@ public class CAP04EJ09 {
       System.out.println("x2 = " + (-b / a));
     }
     if ((a == 0) && (b != 0) && (c != 0)) {
-      System.out.println("x1 = x2 = " + (-c / b));
+      double x= -c/b;
+      System.out.println("x1 = x2 = " + x);
     }
     if ((a != 0) && (b != 0) && (c != 0)) {
     double discriminante = b*b - (4 * a * c);  
